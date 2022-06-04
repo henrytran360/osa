@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+}
+
+.paragraph > .header-content1{
+    color: red;
+}
+
+.paragraph > .header-content2{
+    color: blue;
+}
+
+.paragraph {
+    color: black;
+    margin-left: 100px;
+    background-color: aqua;
+}
+
+.parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#header-test {
+    color: green
+}
