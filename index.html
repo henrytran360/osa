@@ -1,60 +1,63 @@
-<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="index.css">
-</head>
-<body>
-    <div></body>
-    <h1>Hello World</h1>
-    <h2 id="header-test"> Hello Earth </h2>
-    <p> This is my test app. I'm not really sure what to type here. this is the testing code for autosave</p>
-
-    <ul>
-        <li>One</li>
-        <li>Two</li>
-        <li>Three</li>
-    </ul>
-
-    <ol>
-        <li>One</li>
-        <li>Two</li>
-        <li>Three</li>
-    </ol>
-
-    <div class="parent">
-        <div class="paragraph">
-            <div class="header-content1">
-                <span>paragraph1</span>
-            </div>
-            <div class="header-footer">
-                #footer1
-            </div>
-        </div>
-    
-        <div class="paragraph">
-            <div class="header-content2">
-                <span>paragraph2</span>
-            </div>
-            <div class="header-footer">
-                #footer3
-            </div>
-        </div>
-    
-        <div class="paragraph">
-            <div class="header-content2">
-                <span>paragraph3</span>
-            </div>
-            <div class="header-footer">
-                #footer2
-            </div>
-        </div>
-    </div>
-
-    <img src="" alt="car" srcset="">
-</body>
+  <head>
+    <title>Elizabeth Gallery</title>
+  </head>
+  <body>
+    <h1>The One and Only Elizabeth Museum</h1>
+    <main>
+      <section>
+        <h2>Elizabeth photo of the day!</h2>
+        <!-- TODO: Add link to cat photos -->
+        <img src="https://i.ibb.co/8MRR22f/croppedelizabethwebsitepic.png" alt="croppedelizabethwebsitepic">
+        <p>Click here to view more <a href="https://imgbb.com/">elizabeth pics</a></p>
+      </section>
+      <section>
+        <h2>Some fun facts of the elusive Elizabeth</h2>
+        <h3>Things elizabeth likes:</h3>
+        <ul>
+          <li>Sleeping</li>
+          <li>Ice cream</li>
+          <li>Being mean to henry >:)</li>
+        </ul>
+        <figure>
+            <img src="https://i.ibb.co/NT3RCxt/angerelizabeth.png">
+          <figcaption>What a <em>meanie</em></figcaption>  
+        </figure>
+        <h3>Top 3 things elizabeth hates:</h3>
+        <ol>
+          <li>Wearing a bra but also not wearing a bra</li>
+          <li>taking out her sim card every day</li>
+          <li>her cats</li>
+        </ol>
+        <figure>
+          <img src="https://i.ibb.co/rMjFPdm/scrag-being-mean.jpg">
+          <figcaption>Elizabeth <strong>hates</strong> her cats.</figcaption>  
+        </figure>
+      </section>
+      <section>
+        <h2>Submission Form</h2>
+        <form action="https://freecatphotoapp.com/submit-cat-photo">
+          <fieldset>
+            <legend>Is your elizabeth an indoor or outdoor elizabeth?</legend>
+            <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
+            <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+          </fieldset>
+          <fieldset>
+            <legend>What's your elizabeth doing at the moment?</legend>
+            <input id="money" type="checkbox" name="personality" value="money" checked> <label for="money">spending an atrocious amount of money on clothes</label>
+            <input id="coffee" type="checkbox" name="personality" value="coffee"> <label for="coffee">intaking her 6th cup of coffee for the day</label>
+            <input id="nap" type="checkbox" name="personality" value="nap"> <label for="nap">getting ready to take a 3 hour nap</label>
+          </fieldset>
+          <input type="text" name="catphotourl" placeholder="Elizabeth photo URL" required>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>
+        No Copyright - <a href="https://www.freecodecamp.org">henryisbroke.org</a>
+      </p>
+    </footer>
+    <script src="index.js"></script>
+  </body>
 </html>
-
